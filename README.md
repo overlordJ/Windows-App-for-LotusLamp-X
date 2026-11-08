@@ -82,3 +82,6 @@ lotuslamp-controller/
 ├── launch.bat          # Windows launcher
 └── README.md
 ```
+
+**Screenshots**
+Image 1 - https://ibb.co/8Vjn5wn
