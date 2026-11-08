@@ -85,3 +85,4 @@ lotuslamp-controller/
 
 **Screenshots**
 Image 1 - https://ibb.co/8Vjn5wn
+Image 2 - https://ibb.co/WWRqbz2m
