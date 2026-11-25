@@ -113,5 +113,6 @@ lotuslamp-controller/
 
 ## 📸 Screenshots
 
-- Image 1: https://ibb.co/8Vjn5wn
-- Image 2: https://ibb.co/WWRqbz2m
+![LotusLamp X Screenshot 1](assets/Screenshot-1.png)
+
+![LotusLamp X Screenshot 2](assets/Screenshot-2.png)
