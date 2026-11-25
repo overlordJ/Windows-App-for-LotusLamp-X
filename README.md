@@ -26,13 +26,24 @@ Bluetooth Low Energy RGB LED strips — the same hardware controlled by the
 
 ## 📦 Download (Windows `.exe`)
 
-No Python installation required — grab the standalone executable from the **[Releases](https://github.com/overlordJ/Windows-App-for-LotusLamp-X/releases)** page (`LotusLamp X.exe`).
+No Python installation required — download from the **[Releases](https://github.com/overlordJ/Windows-App-for-LotusLamp-X/releases)** page:
+- **`LotusLampX_Setup.exe`** *(Recommended)* — Windows installer (Inno Setup + `--onedir` build)
+- **`LotusLamp.X.exe`** — Portable single-file executable (PyInstaller `--onefile`)
 
 > [!NOTE]
 > **VirusTotal & SmartScreen Disclaimer:**
-> `LotusLamp X.exe` is packaged with **PyInstaller** (`--onefile`) and is **not code-signed**. Because PyInstaller's self-extracting bootloader unpacks Python and dependencies into `%TEMP%` at launch, a few heuristic antivirus engines on VirusTotal (such as **Bkav Pro** `W32.Malware.89A96B3` and **SecureAge** `Malicious`) may flag it as a false positive, and Windows Defender SmartScreen may show an "Unknown publisher" prompt (**More info → Run anyway**).
+> Both binaries are **not code-signed** (no commercial EV/OV certificate). Unsigned newly-built Python/Inno Setup executables commonly trigger 1–2 machine-learning or heuristic false positives on VirusTotal (e.g., **Arctic Wolf** `Unsafe` / **DeepInstinct** `MALICIOUS` on `LotusLampX_Setup.exe`, or **Bkav Pro** / **SecureAge** on the portable `--onefile` build), and Windows Defender SmartScreen may show an "Unknown publisher" prompt (**More info → Run anyway**).
 >
-> All source code is open in this repository — if you prefer not to run the prebuilt binary, you can inspect the code and run it directly from source using the steps below.
+> All source code is open in this repository — if you prefer not to run the prebuilt binaries, you can inspect the code and run it directly from source using the steps below.
+
+### 🔐 SHA-256 Checksums (`v1.0.0`)
+
+Verify your download in PowerShell (`Get-FileHash <filename> -Algorithm SHA256`):
+
+| File | SHA-256 |
+|---|---|
+| `LotusLampX_Setup.exe` | `22DC44034A145A04DA64C98C063055705276A541E5AD1FF5C9460993BFE102A9` |
+| `LotusLamp.X.exe` | `AB582D61FFCF870899CE74766228932165C5FEE634AE4A02ED96AAE5201B4CFF` |
 
 ---
 
