@@ -1,6 +1,9 @@
-# PyInstaller build artifacts
+# PyInstaller & Inno Setup build artifacts
 build/
+build_onedir/
 dist/
+dist_onedir/
+dist_installer/
 *.spec
 
 # Python cache
