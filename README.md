@@ -24,7 +24,19 @@ Bluetooth Low Energy RGB LED strips — the same hardware controlled by the
 
 ---
 
-## 🚀 Quick Start
+## 📦 Download (Windows `.exe`)
+
+No Python installation required — grab the standalone executable from the **[Releases](https://github.com/overlordJ/Windows-App-for-LotusLamp-X/releases)** page (`LotusLamp X.exe`).
+
+> [!NOTE]
+> **VirusTotal & SmartScreen Disclaimer:**
+> `LotusLamp X.exe` is packaged with **PyInstaller** (`--onefile`) and is **not code-signed**. Because PyInstaller's self-extracting bootloader unpacks Python and dependencies into `%TEMP%` at launch, a few heuristic antivirus engines on VirusTotal (such as **Bkav Pro** `W32.Malware.89A96B3` and **SecureAge** `Malicious`) may flag it as a false positive, and Windows Defender SmartScreen may show an "Unknown publisher" prompt (**More info → Run anyway**).
+>
+> All source code is open in this repository — if you prefer not to run the prebuilt binary, you can inspect the code and run it directly from source using the steps below.
+
+---
+
+## 🚀 Quick Start (Run from Source)
 
 ### 1. Install Python 3.10+
 Download from [python.org](https://python.org) if not already installed.
@@ -80,5 +92,15 @@ lotuslamp-controller/
 ├── ble_controller.py   # BLE logic (bleak)
 ├── requirements.txt    # Python dependencies
 ├── launch.bat          # Windows launcher
+├── icon.ico            # Application icon
+├── .gitignore
 └── README.md
 ```
+
+
+---
+
+## 📸 Screenshots
+
+- Image 1: https://ibb.co/8Vjn5wn
+- Image 2: https://ibb.co/WWRqbz2m
